@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from './Month.module.scss';
+import styles from './Week.module.scss';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import {eachDayOfInterval, startOfWeek, endOfWeek} from 'date-fns';
-import CDate from './CDate';
+import CDate from './Cdate';
+
 
 const getDaysWeek = ({weekDate, date, currentDate}) =>
 eachDayOfInterval({
@@ -24,6 +25,7 @@ Week.propTypes = {
 
 Week.defaultProps = {
     currentDate: new Date(),
+    date: new Date(),
 };
 
 

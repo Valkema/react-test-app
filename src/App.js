@@ -42,7 +42,7 @@ function App() {
 const App = () => {
   return (
     <>
-      <Counter />
+      <Calendar/>
     </>
   );
 };

@@ -1,11 +1,21 @@
-.otherMonth {
 
+.cell {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    border: 1px solid rgb(28, 36, 156);
+    color:  rgb(28, 36, 156);
+    font-size: 3rem;
+    cursor: pointer;
+    list-style: none; 
+}
+
+.otherMonth {
+color: rgba(28, 36, 156, 0.219);
 }
 
 .currentDay {
-
-}
-
-.cell {
-    
+    color: rgb(219, 28, 60);
+    border: 1px solid rgb(219, 28, 60);
 }

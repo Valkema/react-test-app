@@ -1,10 +1,17 @@
-.wrapper {
-
+.todayWrapper {
+ width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .name{
-
+font-size: 3rem;
+color: rgb(219, 28, 60);
 }
+
 .number {
-    
+    color: rgb(219, 28, 60);
+    font-size: 15rem;
 }
